@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #fff;
+    position:fixed;
+    padding-top:16px;
+    padding-bottom: 16px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    margin-bottom: 80px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar button{
+    border:none;
+    color:white;
+    padding: 6px 16px;
+}
+
+.navbar .navbar-brand{
+    padding-left:100px;
+    font-weight:bold;
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.header{
+    background-color: #f8f9fa;
+    padding-top: 150px;
+}
+
+.header h1{
+    line-height: 1 !important;
+    font-weight:300;
+}
+
+@media (min-width:1200px){
+    .header h1{
+        font-size:5rem;
+    }
+}
+.header p{
+    font-size: 1.25rem;
+}
+
+.miniresim{
+    width:162px;
+    height:48px;
+}
+
+
+.bigcircle{
+    width:0px;
+    height:1px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    transform:rotate(-90deg);
+    position: relative;
+    left:20px;
+    top:50px;   
+}  
+/* 576px  */
+@media(min-width:576px){
+    .header .yuvarlak .bigcircle{
+        width:310px;
+        height:310px;
+        position: relative;
+        left:55px;
+        bottom:300px;
+    }
+}
+@media(min-width:576px){
+    .header .yuvarlak .phone{
+         width: 200px;
+         height:397px;
+         position:relative;
+         top:0px;
+         z-index: 1 !important;
+    }
+}
+ @media(min-width:576px){
+    .circle{
+        width:15px;
+        height:15px;
+        border-radius: 50%;
+        background-color:blue;
+        position: relative;
+        top:-300px;
+        left:400px;
+    }
+}
+
+@media(min-width:576px){
+    .bi-x{
+        font-size: 10rem !important;
+        font-weight: bold;
+        transform: rotate(-40deg);
+        color:#2037f0;
+        position:absolute;
+        left:-250px;
+        z-index: 1 !important;
+        
+    }
+}
+
+/* 768px */
+@media(min-width:768px){
+    .header .yuvarlak .bigcircle{
+        width:375px;
+        height:375px;
+        position: relative;
+        left:4px;
+        bottom:300px;
+    }
+}
+
+.phone{
+    width: 200px;
+    height:400px;
+    z-index: 1 !important;
+    position:relative;
+    right:100px;
+}
+
+@media(min-width:768px){
+   .header .yuvarlak .phone{
+        width: 240px;
+        height:477px;
+        position:relative;
+        top:0px;
+        left:-170px;
+        z-index: 1 !important;
+        margin-bottom: 80px;
+
+   }
+}
+
+@media(min-width:768px){
+    .circle{
+        width:15px;
+        height:15px;
+        border-radius: 50%;
+        background-color:blue;
+        position: relative;
+        top:-300px;
+        left:400px;
+    }
+}
+
+.bi-x{
+    font-size: 3rem !important;
+    font-weight: bold;
+    transform: rotate(-40deg);
+    color:#2037f0;
+    position:relative;
+    right:30px;
+    bottom:100px;
+    
+}
+
+@media(min-width:768px){
+    .bi-x{
+        font-size: 3rem !important;
+        font-weight: bold;
+        transform: rotate(-40deg);
+        color:#2037f0;
+        position:absolute;
+        left:120px;
+        top:520px;
+    }
+}
+
+aside{
+    background:linear-gradient(45deg,#2037f0,#9f1ae2);
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+aside h2{
+    margin-bottom:24px;
+}
+
+aside img{
+    width:113px;
+    height:48px;
+}
+
+.second_circle{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    transform:rotate(-90deg);
+}
+
+/* Feature */
+
+.features{
+    background-color: #fff;
+}
+
+.bigcircle2{
+    width:0px;
+    height:1px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    transform:rotate(-90deg);
+    position: relative;
+    left:20px;
+    top:50px;
+}
+.phone2{
+    width: 200px;
+    height:400px;
+    z-index: 1 !important;
+    position:relative;
+    left:40px;
+}
+.circle2{
+    width:0px;
+    height:150px;
+    border-radius: 50%;
+    background-color:blue;   
+}
+#x2{
+    font-size: 3rem !important;
+    font-weight: bold;
+    transform: rotate(-40deg);
+    color:#2037f0;
+    position:relative;
+    right:30px;
+    bottom:100px;   
+}
+
+/* 576px  */
+@media(min-width:576px){
+    .header .yuvarlak .bigcircle2{
+        width:310px;
+        height:310px;
+        position:absolute;
+        top:2500px;
+        left:165px;
+    }
+}
+@media(min-width:576px){
+    .header .yuvarlak .phone2{
+         width: 200px;
+         height:397px;
+         position:relative;
+         top:-0;
+         z-index: 1 !important;
+    }
+}
+@media(min-width:576px){
+    .circle2{
+        width:15px;
+        height:15px;
+        border-radius: 50%;
+        background-color:blue;
+        position: absolute;
+        top:2750px;
+        left:150px;
+    }
+}
+
+@media(min-width:576px){
+    #x2{
+        font-size: 3rem !important;
+        font-weight: bold;
+        transform: rotate(-40deg);
+        color:blue;
+        position:absolute;
+        top:2500px;
+        left:300px;
+        z-index: 1 !important;
+        
+    }
+}
+/* 768px */ 
+@media(min-width:768px){
+     .features .yuvarlak .bigcircle2{
+        width:250px;
+        height:250px;
+        position:absolute;
+        top:1250px;
+        left:130px;
+    }
+}
+
+@media(min-width:768px){
+   .features .yuvarlak .phone2{
+        width: 240px;
+        height:477px;
+        position:relative;
+        top:0px;
+        left:50px;
+        z-index: 1 !important;
+   }
+}
+
+@media(min-width:768px){
+    .circle2{
+        width:10px;
+        height:10px;
+        border-radius: 50%;
+        background-color:blue;
+        position: absolute;
+        z-index: 1 !important;
+        top:1540px;
+        left:200px;
+    }
+}
+
+@media(min-width:768px){
+    #x2{
+        font-size: 3rem !important;
+        font-weight: bold;
+        transform: rotate(-10deg);
+        color:#2037f0;
+        position:absolute;
+        top:1150px;
+        right:680px;
+    }
+}
+
+
+
+#download{
+    background-image:linear-gradient(rgb(0,0,0,0.7), rgb(50,50,50,0.7)), url("iyi-bir-yazi-yazmak-icin-6-ilke10022021.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#download h2{
+    color:#fff;
+}
+
+.bi{
+    font-size:4rem;
+}
+
+.bi-phone, .bi-camera, .bi-gift, .bi-patch-check{
+    color:#9f1ae2;
+}
+.bi-chat{
+    font-size:1rem;
+}
+
+.card{
+    border:none;
+}
+
+ /* design */
+section{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.start{
+    background-image: url("..\New\ Age\ -\ Start\ Bootstrap\ Theme.html");
+}
+
+/* get sectionı */
+
+.get{
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+/* modal */
+
+.modal .modal-header{
+    background-image: linear-gradient(45deg,rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    color:white;
+    padding-top:25px ;
+    padding-bottom:25px;
+}
+ 
+ .modal input{
+     width:350px;
+     border-radius: 5%;
+     border:1px solid #e8f0fe;
+     height:50px;
+ }
+
+ .modal input:active{
+    border:1px solid blue;
+ }
+
+ .modal-footer button {
+     color:white;
+     box-shadow: 1px 1px 1px rgb(3, 11, 134);
+     width:100px;
+     text-align:center; 
+
+ }
+
