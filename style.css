@@ -66,7 +66,35 @@
     position: relative;
     left:20px;
     top:50px;   
-}  
+}
+
+.bi-x{
+    font-size: 3rem !important;
+    font-weight: bold;
+    transform: rotate(-40deg);
+    color:#2037f0;
+    position:relative;
+    right:30px;
+    bottom:100px;
+    
+}
+
+.second_circle{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    transform:rotate(-90deg);
+}
+
+.phone{
+    width: 200px;
+    height:400px;
+    z-index: 1 !important;
+    position:relative;
+    right:100px;
+}
+
 /* 576px  */
 @media(min-width:576px){
     .header .yuvarlak .bigcircle{
@@ -84,6 +112,7 @@
          position:relative;
          top:0px;
          z-index: 1 !important;
+         margin-bottom:80px;
     }
 }
  @media(min-width:576px){
@@ -100,37 +129,122 @@
 
 @media(min-width:576px){
     .bi-x{
-        font-size: 10rem !important;
+        font-size: 3rem !important;
         font-weight: bold;
         transform: rotate(-40deg);
         color:#2037f0;
         position:absolute;
-        left:-250px;
+        left:-300px;
+        top:850px;
         z-index: 1 !important;
         
     }
 }
 
-/* 768px */
-@media(min-width:768px){
+/* 720px  */
+@media(min-width:720px){
     .header .yuvarlak .bigcircle{
-        width:375px;
-        height:375px;
+        width:310px;
+        height:310px;
         position: relative;
-        left:4px;
+        left:55px;
         bottom:300px;
     }
 }
-
-.phone{
-    width: 200px;
-    height:400px;
-    z-index: 1 !important;
-    position:relative;
-    right:100px;
+@media(min-width:720px){
+    .header .yuvarlak .phone{
+         width: 200px;
+         height:397px;
+         position:relative;
+         top:0px;
+         z-index: 1 !important;
+         margin-bottom:80px;
+    }
+}
+ @media(min-width:720px){
+    .circle{
+        width:15px;
+        height:15px;
+        border-radius: 50%;
+        background-color:blue;
+        position: relative;
+        top:-220px;
+        left:350px;
+    }
 }
 
-@media(min-width:768px){
+@media(min-width:720px){
+    .bi-x{
+        font-size: 3rem !important;
+        font-weight: bold;
+        transform: rotate(-40deg);
+        color:#2037f0;
+        position:absolute;
+        left:-300px;
+        top:850px;
+        z-index: 1 !important;
+        
+    }
+}
+/* 960px  */
+@media(min-width:960px){
+    .header .yuvarlak .bigcircle{
+        width:310px;
+        height:310px;
+        position: absolute;
+        left:370px;
+        top:550px;
+    }
+}
+@media(min-width:960px){
+    .header .yuvarlak .phone{
+         width: 200px;
+         height:397px;
+         position:relative;
+         top:80px;
+         z-index: 1 !important;
+         margin-bottom:80px;
+    }
+}
+ @media(min-width:960px){
+    .circle{
+        width:15px;
+        height:15px;
+        border-radius: 50%;
+        background-color:blue;
+        position: absolute;
+        top:600px;
+        left:700px;
+    }
+}
+
+@media(min-width:960px){
+    .bi-x{
+        font-size: 3rem !important;
+        font-weight: bold;
+        transform: rotate(-40deg);
+        color:#2037f0;
+        position:absolute;
+        left:-200px;
+        top:800px;
+        z-index: 1 !important;
+        
+    }
+}
+/* 1140px */
+@media(min-width:1140px){
+    .header .yuvarlak .bigcircle{
+        width:375px;
+        height:375px;
+        position: absolute;
+        left:700px;
+        top:200px;
+    }
+}
+
+
+
+@media(min-width:1140px){
    .header .yuvarlak .phone{
         width: 240px;
         height:477px;
@@ -138,35 +252,24 @@
         top:0px;
         left:-170px;
         z-index: 1 !important;
-        margin-bottom: 80px;
-
    }
 }
 
-@media(min-width:768px){
+@media(min-width:1140px){
     .circle{
         width:15px;
         height:15px;
         border-radius: 50%;
         background-color:blue;
-        position: relative;
-        top:-300px;
-        left:400px;
+        position: absolute;
+        top:250px;
+        left:1100px;
     }
 }
 
-.bi-x{
-    font-size: 3rem !important;
-    font-weight: bold;
-    transform: rotate(-40deg);
-    color:#2037f0;
-    position:relative;
-    right:30px;
-    bottom:100px;
-    
-}
 
-@media(min-width:768px){
+
+@media(min-width:1140px){
     .bi-x{
         font-size: 3rem !important;
         font-weight: bold;
@@ -177,6 +280,8 @@
         top:520px;
     }
 }
+
+/* Aside */
 
 aside{
     background:linear-gradient(45deg,#2037f0,#9f1ae2);
@@ -193,13 +298,6 @@ aside img{
     height:48px;
 }
 
-.second_circle{
-    width:200px;
-    height:200px;
-    border-radius: 50%;
-    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
-    transform:rotate(-90deg);
-}
 
 /* Feature */
 
@@ -284,8 +382,96 @@ aside img{
         
     }
 }
-/* 768px */ 
-@media(min-width:768px){
+/* 7200px */ 
+@media(min-width:720px){
+    .features .yuvarlak .bigcircle2{
+       width:310px;
+       height:310px;
+       position:absolute;
+       top:2500px;
+       left:245px;
+   }
+}
+
+@media(min-width:720px){
+  .features .yuvarlak .phone2{
+       width: 200px;
+       height:397px;
+       z-index: 1 !important;
+  }
+}
+
+@media(min-width:720px){
+   .circle2{
+       width:10px;
+       height:10px;
+       border-radius: 50%;
+       background-color:blue;
+       position: absolute;
+       z-index: 1 !important;
+       top:2750px;
+       left:250px;
+   }
+}
+
+@media(min-width:720px){
+   #x2{
+       font-size: 3rem !important;
+       font-weight: bold;
+       transform: rotate(30deg);
+       color:#2037f0;
+       position:absolute;
+       top:2550px;
+       left:550px;
+    
+   }
+}
+/* 960px */ 
+@media(min-width:960px){
+    .features .yuvarlak .bigcircle2{
+       width:373px;
+       height:374px;
+       position:absolute;
+       top:1950px;
+       left:330px;
+   }
+}
+
+@media(min-width:960px){
+  .features .yuvarlak .phone2{
+       width: 240px;
+       height:477px;
+       z-index: 1 !important;
+  }
+}
+
+@media(min-width:960px){
+   .circle2{
+       width:10px;
+       height:10px;
+       border-radius: 50%;
+       background-color:blue;
+       position: absolute;
+       z-index: 1 !important;
+       top:2250px;
+       left:300px;
+   }
+}
+
+@media(min-width:960px){
+   #x2{
+       font-size: 3rem !important;
+       font-weight: bold;
+       transform: rotate(30deg);
+       color:#2037f0;
+       position:absolute;
+       top:1950px;
+       left:550px;
+    
+   }
+}
+/* 1140px */ 
+@media(min-width:1140px){
      .features .yuvarlak .bigcircle2{
         width:250px;
         height:250px;
@@ -295,7 +481,7 @@ aside img{
     }
 }
 
-@media(min-width:768px){
+@media(min-width:1140px){
    .features .yuvarlak .phone2{
         width: 240px;
         height:477px;
@@ -306,7 +492,7 @@ aside img{
    }
 }
 
-@media(min-width:768px){
+@media(min-width:1140px){
     .circle2{
         width:10px;
         height:10px;
@@ -319,7 +505,7 @@ aside img{
     }
 }
 
-@media(min-width:768px){
+@media(min-width:1140px){
     #x2{
         font-size: 3rem !important;
         font-weight: bold;
